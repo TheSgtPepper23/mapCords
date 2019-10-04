@@ -1,0 +1,20 @@
+coordinates MAP_NAME
+Return information about MAP_NAME
+
+coordinates MAP_NAME -c
+Creates a new map with the name (It only can be a map with the name)
+
+coordinates MAP_NAME -d
+Deletes the current map and all the locations asociated with it
+
+coordinates MAP_NAME -d pid
+deletes a specific location
+
+coordinates MAP_NAME -a
+Lists all the locations saved on the MAP_NAME
+
+coordinates MAP_NAME -f KEYWORD
+List the locations related to the map that have that keyword
+
+coordinates MAP_NAME -n "Name" x y z 
+Adds a new lotcation
