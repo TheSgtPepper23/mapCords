@@ -29,7 +29,7 @@ class Location(_BaseModel):
         return f"{self.id}) {self.name}: {self.x_val}, {self.y_val}, {self.z_val}"
 
 
-if __name__ == "__main__":
+def create_ifnot_exist():
     coordinates_db.connect()
     if not coordinates_db.table_exists(Map) and not coordinates_db.table_exists(Location):
         coordinates_db.create_tables([Map, Location])

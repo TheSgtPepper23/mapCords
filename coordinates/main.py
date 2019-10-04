@@ -2,6 +2,7 @@ from queries import MapQueries, LocationQueries
 from global_var import Errors, Messages, print_enum
 from sys import argv
 import argparse
+from models import create_ifnot_exist
 
 
 def initializa_parser():
@@ -29,6 +30,7 @@ def initializa_parser():
 
 
 if __name__ == "__main__":
+    create_ifnot_exist()
     parser = initializa_parser()
     args = parser.parse_args()
 

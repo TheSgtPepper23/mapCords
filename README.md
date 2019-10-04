@@ -12,6 +12,7 @@ coordinates [-h] [-l | -f KEYWORD | -n NAME X Y Z | -c | -d [LOCATION_ID]] MAP_N
 <li>-c: Creates the new map</li>
 <li>-d: Deletes the location specified or the current map if no id is specified</li>
 </ul>
+
   
   
   
